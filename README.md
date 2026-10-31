@@ -1,5 +1,7 @@
 # LCD-Desktop-Monitor-Tool-by-Aida64
 利用Aida64-设置-LCD中POS或Pertelian做串口输出数据的电脑性能监视工具
+
+
 #!/bin/bash
 # 循环 0x08 ~ 0x77
 for ((i=0x08; i<=0x77; i++)); do
